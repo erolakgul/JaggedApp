@@ -30,10 +30,10 @@ namespace JaggedApp
             #region array in iç size ını belirle
             arr = Helper.declare(arr,jaggedOuterSize,jaggedInnerSize);
             #endregion
-
+              
             #region doldur jagged array
             foreach (var item in _iList)
-            {
+            { 
                 if (size == jaggedInnerSize)
                 {
                     size = 0;
